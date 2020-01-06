@@ -14,7 +14,7 @@ class Answer extends StatelessWidget {
       width: double.infinity,
 
       child: RaisedButton(
-
+        elevation: 5.0,
         child: Text(answerText),
         textColor: Colors.white,
         color: Colors.pinkAccent,

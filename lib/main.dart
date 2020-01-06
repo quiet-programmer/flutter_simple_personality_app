@@ -44,17 +44,14 @@ class _NewAppState extends State<NewApp> {
   var _questionIndex = 0;
   var _totalScore = 0;
 
-  void _resetQuiz(){
-
+  void _resetQuiz() {
     setState(() {
       _questionIndex = 0;
       _totalScore = 0;
     });
-    
   }
 
   void _answerQuestion(int score) {
-
     _totalScore += score;
 
     setState(() {
@@ -73,12 +70,14 @@ class _NewAppState extends State<NewApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme:
-          ThemeData(primaryColor: Colors.pink, accentColor: Colors.pinkAccent),
+      theme: ThemeData(
+        primaryColor: Colors.pink,
+        accentColor: Colors.pinkAccent
+        ),
       title: "Simple App",
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Simple Quiz App'),
+          title: Text('Personality Quiz App'),
         ),
         body: _questionIndex < _questions.length
             ? Quiz(

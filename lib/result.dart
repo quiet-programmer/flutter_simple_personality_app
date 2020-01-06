@@ -40,8 +40,8 @@ class Result extends StatelessWidget {
 
           //second element
           RaisedButton(
-            child: Text("Go Back"),
-            color: Colors.pink,
+            child: Text("Restart"),
+            color: Colors.pinkAccent,
             textColor: Colors.white,
             elevation: 5.0,
             onPressed: resetHandler,
