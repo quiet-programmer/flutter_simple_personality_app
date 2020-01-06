@@ -18,6 +18,8 @@ samples, guidance on mobile development, and a full API reference.
 This is from my Udemy course I'm learning, the designs dear are not great, just simple designs
 to get the code logic running fine. No complex designs or anything more.
 
+added some new changes and the UI is not that pleasing.
+
 Updates will be coming soon.
 
 Credit: Maximilian,
